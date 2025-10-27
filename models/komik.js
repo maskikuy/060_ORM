@@ -2,7 +2,7 @@ module.exports = (sequelize, DataTypes) => {
     const Komik = sequelize.define("Komik", {
         id: {
             type: DataTypes.INTEGER,
-            autoincrement: true,
+            autoIncrement: true,
             primaryKey: true,
         },
         title: {
